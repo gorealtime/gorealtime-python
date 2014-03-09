@@ -1,3 +1,5 @@
+.PHONY: requests publish html
+
 requests:
 	rm -fr gorealtime/vendor/requests
 	git clone https://github.com/kennethreitz/requests.git
@@ -8,3 +10,6 @@ publish:
 	python setup.py register
 	python setup.py sdist upload
 	python setup.py bdist_wheel upload
+
+html:
+	sphinx-build -Eb html docs docs/_build/

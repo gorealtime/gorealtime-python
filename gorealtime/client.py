@@ -43,7 +43,7 @@ class Client(object):
     def from_url(cls, url):
         """
         Returns a Client object when given a URL of the format
-        https://<app_key>:<app_secret>@api.gorealti.me
+        ``https://<app_key>:<app_secret>@api.gorealti.me``
         """
         parsed = urlparse(url)
         client = cls(parsed.username, parsed.password)
@@ -51,6 +51,10 @@ class Client(object):
         return client
 
     def push(self, message, channels):
+        """
+        Pushes ``message`` to all ``channels``
+        """
+
         data = json.dumps({
             'signature': self.sign(message),
             'message': message,
@@ -66,6 +70,9 @@ class Client(object):
         return ApiResponse(r)
 
     def sign(self, message):
+        """
+        Returns a signature made using an app's secret key
+        """
         message = message.encode('ascii')
         secret = self.app_secret.encode('ascii')
         return hmac.new(secret, message, sha256).hexdigest()
