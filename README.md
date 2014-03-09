@@ -7,7 +7,6 @@
     import gorealtime
     client = gorealtime.Client('app_key', 'app_secret')
     client.push('Example message', ['channel1', 'second_channel'])
-
 ```
 
 ## Installation
