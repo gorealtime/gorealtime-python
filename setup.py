@@ -16,6 +16,10 @@ setup(
     author_email='joe@gorealtime.io',
     url='https://gorealtime.io',
     packages=find_packages(),
+    package_data={
+        'gorealtime': ['README.md'],
+        'gorealtime.vendor.requests': ['*.pem'],
+    },
     long_description=readme,
     license='MIT',
     zip_safe=False,
