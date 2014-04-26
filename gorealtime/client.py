@@ -54,6 +54,8 @@ class Client(object):
         """
         Pushes ``message`` to all ``channels``
         """
+        if isinstance(channels, basestring):
+            channels = [channels]
 
         data = json.dumps({
             'signature': self.sign(message),
