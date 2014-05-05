@@ -1,7 +1,4 @@
-# gorealtime-python
-
-[![Build Status](https://travis-ci.org/gorealtime/gorealtime-python.svg)](https://travis-ci.org/gorealtime/gorealtime-python)
-
+# gorealtime-python [![Build Status](https://travis-ci.org/gorealtime/gorealtime-python.svg)](https://travis-ci.org/gorealtime/gorealtime-python)
 
 ## Quickstart
 
