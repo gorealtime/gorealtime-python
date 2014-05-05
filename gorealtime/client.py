@@ -11,6 +11,12 @@ import json
 from .vendor import requests
 
 
+try:
+    STRING_TYPE = basestring
+except NameError:
+    STRING_TYPE = str  # py3
+
+
 class ApiResponse(object):
     """
     This class is very basic, it simply allows
@@ -54,7 +60,7 @@ class Client(object):
         """
         Pushes ``message`` to all ``channels``
         """
-        if isinstance(channels, basestring):
+        if isinstance(channels, STRING_TYPE):
             channels = [channels]
 
         data = json.dumps({
