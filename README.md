@@ -1,5 +1,8 @@
 # gorealtime-python
 
+[![Build Status](https://travis-ci.org/gorealtime/gorealtime-python.svg)](https://travis-ci.org/gorealtime/gorealtime-python)
+
+
 ## Quickstart
 
 ```python
@@ -23,3 +26,4 @@ However, be careful as this *may be broken*.
 # Links
 - [Docs](http://gorealtime-python.readthedocs.org/en/latest/)
 - [Issues](https://github.com/gorealtime/gorealtime-python/issues)
+- [CI](https://travis-ci.org/gorealtime/gorealtime-python)
