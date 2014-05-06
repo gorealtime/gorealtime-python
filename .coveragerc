@@ -1,0 +1,3 @@
+[run]
+include=gorealtime/*
+omit=gorealtime/vendor/*

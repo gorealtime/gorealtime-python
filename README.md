@@ -1,4 +1,4 @@
-# gorealtime-python [![Build Status](https://travis-ci.org/gorealtime/gorealtime-python.svg)](https://travis-ci.org/gorealtime/gorealtime-python)
+# gorealtime-python [![Build Status](https://travis-ci.org/gorealtime/gorealtime-python.svg)](https://travis-ci.org/gorealtime/gorealtime-python) [![Coverage Status](https://coveralls.io/repos/gorealtime/gorealtime-python/badge.png)](https://coveralls.io/r/gorealtime/gorealtime-python)
 
 ## Quickstart
 
