@@ -1,6 +1,6 @@
 from nose.plugins.attrib import attr
 
-from gorealtime import Client
+from spate import Client
 
 
 class TestClient(object):
@@ -14,11 +14,11 @@ class TestClient(object):
         assert client.sign('SIGNATURE_CHECK') == self.EXPECTED_SIGNATURE
 
     def test_from_url(self):
-        url = 'https://%s:%s@fake.gorealti.me' % (self.TEST_KEY, self.TEST_SECRET)
+        url = 'https://%s:%s@fake.spate.io' % (self.TEST_KEY, self.TEST_SECRET)
         client = Client.from_url(url)
         assert client.app_key == self.TEST_KEY
         assert client.app_secret == self.TEST_SECRET
-        assert client.api_base == 'https://fake.gorealti.me'
+        assert client.api_base == 'https://fake.spate.io'
         assert client.sign('SIGNATURE_CHECK') == self.EXPECTED_SIGNATURE
 
     @attr('network')

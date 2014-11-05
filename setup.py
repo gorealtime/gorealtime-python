@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import gorealtime
+import spate
 
 from setuptools import setup, find_packages
 
@@ -9,16 +9,16 @@ with open('README.md') as f:
     readme = f.read()
 
 setup(
-    name='gorealtime',
-    version=gorealtime.__version__,
-    description='Python gorealtime client',
+    name='spate',
+    version=spate.__version__,
+    description='Python spate client',
     author='Joe Alcorn',
     author_email='joe@gorealtime.io',
-    url='https://gorealtime.io',
+    url='https://spate.io',
     packages=find_packages(),
     package_data={
-        'gorealtime': ['README.md'],
-        'gorealtime.vendor.requests': ['*.pem'],
+        'spate': ['README.md'],
+        'spate.vendor.requests': ['*.pem'],
     },
     long_description=readme,
     license='MIT',

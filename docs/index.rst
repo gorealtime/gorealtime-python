@@ -1,4 +1,4 @@
-Welcome to gorealtime-python's documentation!
+Welcome to spate-python's documentation!
 =============================================
 
 Quickstart
@@ -6,11 +6,11 @@ Quickstart
 
 .. code-block:: python
 
-    import gorealtime
-    client = gorealtime.Client('app_key', 'app_secret')
+    import spate
+    client = spate.Client('app_key', 'app_secret')
     client.push('Example message', ['channel1', 'second_channel'])
 
-.. module:: gorealtime
+.. module:: spate
 .. autoclass:: Client
 
     .. automethod:: push

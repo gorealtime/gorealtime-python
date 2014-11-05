@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# gorealtime-python documentation build configuration file, created by
+# spate-python documentation build configuration file, created by
 # sphinx-quickstart on Sun Mar  9 21:14:59 2014.
 #
 # This file is execfile()d with the current directory set to its
@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'gorealtime-python'
+project = u'spate-python'
 copyright = u'2014, Joe Alcorn'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -180,4 +180,4 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'gorealtime-pythondoc'
+htmlhelp_basename = 'spate-pythondoc'

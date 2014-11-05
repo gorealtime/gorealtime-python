@@ -34,12 +34,12 @@ class ApiResponse(object):
 
     def __repr__(self):
         state = 'Success' if bool(self) else 'Failure'
-        return '<gorealtime.client.ApiResponse (%s)>' % state
+        return '<spate.client.ApiResponse (%s)>' % state
 
 
 class Client(object):
 
-    api_base = 'https://api.gorealti.me'
+    api_base = 'https://api.spate.io'
 
     def __init__(self, app_key, app_secret):
         self.app_key = app_key
@@ -49,7 +49,7 @@ class Client(object):
     def from_url(cls, url):
         """
         Returns a Client object when given a URL of the format
-        ``https://<app_key>:<app_secret>@api.gorealti.me``
+        ``https://<app_key>:<app_secret>@api.spate.io``
         """
         parsed = urlparse(url)
         client = cls(parsed.username, parsed.password)

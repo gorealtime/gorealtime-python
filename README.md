@@ -1,11 +1,11 @@
-# gorealtime-python [![Build Status](https://travis-ci.org/gorealtime/gorealtime-python.svg)](https://travis-ci.org/gorealtime/gorealtime-python) [![Coverage Status](https://coveralls.io/repos/gorealtime/gorealtime-python/badge.png)](https://coveralls.io/r/gorealtime/gorealtime-python)
+# spate-python [![Build Status](https://travis-ci.org/spateio/spate-python.svg)](https://travis-ci.org/spateio/spate-python) [![Coverage Status](https://coveralls.io/repos/spateio/spate-python/badge.png)](https://coveralls.io/r/spateio/spate-python)
 
 ## Quickstart
 
 ```python
 
-    import gorealtime
-    client = gorealtime.Client('app_key', 'app_secret')
+    import spate
+    client = spate.Client('app_key', 'app_secret')
     client.push('Example message', ['channel1', 'second_channel'])
 ```
 
@@ -13,14 +13,14 @@
 
 Installation is done using `pip`
 
-`$ pip install gorealtime`
+`$ pip install spate`
 
 If you want the latest possible version, grab it directly from the git repo.
 However, be careful as this *may be broken*.
 
-`$ pip install git+https://github.com/gorealtime/gorealtime-python.git`
+`$ pip install git+https://github.com/spateio/spate-python.git`
 
 # Links
 - [Docs](http://gorealtime-python.readthedocs.org/en/latest/)
-- [Issues](https://github.com/gorealtime/gorealtime-python/issues)
-- [CI](https://travis-ci.org/gorealtime/gorealtime-python)
+- [Issues](https://github.com/spateio/spate-python/issues)
+- [CI](https://travis-ci.org/spateio/spate-python)

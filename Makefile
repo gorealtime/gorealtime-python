@@ -1,9 +1,9 @@
 .PHONY: requests publish html
 
 requests:
-	rm -fr gorealtime/vendor/requests
+	rm -fr spate/vendor/requests
 	git clone https://github.com/kennethreitz/requests.git
-	mv requests/requests gorealtime/vendor
+	mv requests/requests spate/vendor
 	rm -fr requests
 
 publish:
