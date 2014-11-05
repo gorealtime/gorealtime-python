@@ -37,7 +37,7 @@ class ApiResponse(object):
         return '<spate.client.ApiResponse (%s)>' % state
 
 
-class Client(object):
+class Spate(object):
 
     api_base = 'https://api.spate.io'
 
@@ -48,7 +48,7 @@ class Client(object):
     @classmethod
     def from_url(cls, url):
         """
-        Returns a Client object when given a URL of the format
+        Returns a Spate object when given a URL of the format
         ``https://<app_key>:<app_secret>@api.spate.io``
         """
         parsed = urlparse(url)

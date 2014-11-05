@@ -1,4 +1,4 @@
-from .client import Client
+from .client import Spate
 
 __version__ = '0.1-dev'
-__all__ = ['Client']
+__all__ = ['Spate']

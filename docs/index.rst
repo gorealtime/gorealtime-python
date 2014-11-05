@@ -27,11 +27,11 @@ Usage
 .. code-block:: python
 
     import spate
-    client = spate.Client('app_key', 'app_secret')
+    client = spate.Spate('app_key', 'app_secret')
     client.push('Example message', ['channel1', 'second_channel'])
 
 .. module:: spate
-.. autoclass:: Client
+.. autoclass:: Spate
 
     .. automethod:: push
 
