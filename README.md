@@ -21,6 +21,6 @@ However, be careful as this *may be broken*.
 `$ pip install git+https://github.com/spateio/spate-python.git`
 
 # Links
-- [Docs](http://gorealtime-python.readthedocs.org/en/latest/)
+- [Docs](http://spate-python.readthedocs.org/en/latest/)
 - [Issues](https://github.com/spateio/spate-python/issues)
 - [CI](https://travis-ci.org/spateio/spate-python)
