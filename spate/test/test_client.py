@@ -5,9 +5,9 @@ from spate import Client
 
 class TestClient(object):
 
-    TEST_SECRET = '785b5984cfbe119af5cc0230d0cd2c2e'
-    TEST_KEY = '13ca90c13121e0b76573d46032c7f18f'
-    EXPECTED_SIGNATURE = 'e2f67f6cdb05d1146a9f3ac9b736b350175e268626cca16f11bc501dff3cae65'
+    TEST_SECRET = '153d49793c831974b36b5f3c4f24978b'
+    TEST_KEY = 'f7f9e8cbf8317faca95270cac84e3d11'
+    EXPECTED_SIGNATURE = '6c3cda883be1d318cee6cf733b48c32f727b2b25d95d4af97b8de988ee9d8a62'
 
     def test_signing(self):
         client = Client(self.TEST_KEY, self.TEST_SECRET)
